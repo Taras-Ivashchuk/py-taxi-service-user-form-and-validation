@@ -5,7 +5,7 @@ from django.forms import (ModelForm,
                           ModelMultipleChoiceField,
                           CheckboxSelectMultiple)
 
-from taxi.models import Driver, Car
+from taxi.models import Car
 
 
 class DriverCreationForm(UserCreationForm):
